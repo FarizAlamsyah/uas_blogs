@@ -82,9 +82,7 @@ table.data,table.data tr th,table.data tr td {
 	border-collapse: collapse;
 	border: 1px solid #bf3e11;
 }
-table.data tr td {
-	text-align: center;
-}
+
 input {
 	font-size: 12pt;
 	font-family: Candara;
@@ -96,50 +94,6 @@ input:hover {
 	border:1px solid #bf3e11;
 }
 
-@media screen and (max-width: 900px) {
-	* {
-		margin: 20px 20px 10px 20px;
-	}
-	.big-logo {
-		font-size:65px;
-		text-align: center;
-	}
-	.menu ul li{
-		display: block;
-		padding: 30px 30px;
-		font-size: 40px;
-	}
-	.container {
-		font-size: 25px;
-	}
-	.data-sekolah {
-		font-size: 60px;
-	}
-	.pull-right {
-		float:none;
-	}
-	button,.btn {
-		display: block;
-		text-align: center;
-		padding: 20px;
-		font-size: 40px;
-	}
-
-	.search {
-		display: block;
-		float: none;
-		width: 945px;
-		height: 30px;
-		margin-left: -40px;
-		font-size: 35px;
-		text-align: center;
-	}
-
-	.top-gray {
-		width: 218%;
-	}
-
-	.data {
-		width: 95%;
-	}
+table.pop tr td{
+	text-align: left;
 }

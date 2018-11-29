@@ -31,7 +31,7 @@
 	<td><?php echo $key['judul'];?></td>
 	<td><?php echo $key['konten'];?></td>
 	<td><?php echo $key['penulis'];?></td>
-	<td><a href="index.php?p=home&m=edit&id=
+	<td><a href="index.php?p=crud&m=edit&id=
 		<?php echo $key['id'];?>">Ubah</a></td>
 	<td><a onclick="return confirm('Hapus Data <?php echo $key['judul'];?>')"
 		href="proses/crud/hapus.php?id=
